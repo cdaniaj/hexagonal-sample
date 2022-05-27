@@ -5,6 +5,8 @@ import br.com.architecture.hexagonal.dto.MoviesDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
+import java.util.List;
+
 @Mapper
 public interface MoviesMapper {
 
@@ -13,4 +15,9 @@ public interface MoviesMapper {
     MoviesDTO moviesToMoviesDTO(Movies movies);
 
     Movies moviesDTOToMovies(MoviesDTO dto);
+
+    List<MoviesDTO> moviesListToMoviesDTOs(List<Movies> moviesList);
+
+    Movies moviesToMovies(Movies movies);
+
 }
