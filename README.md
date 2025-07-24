@@ -1,7 +1,6 @@
 # hexagonal-movies
-Repositorio dedicado a exemplo de arquitetura hexagonal
+Repository dedicated to an example of Hexagonal Architecture
 
+This project aims to demonstrate a software architecture known as Ports & Adapters (Hexagonal Architecture).
 
-Este projeto tem como objetivo exemplificar uma arquitetura de software conhecida como Ports & Adapters (Hexagonal).
-
-Uma de suas vantagens é a possibilidade de receber dados de qualquer lugar, adapta-los para o dominio e exporta-los para diferentes saidas
+One of its advantages is the ability to receive data from any source, adapt it to the domain, and export it to different outputs.
